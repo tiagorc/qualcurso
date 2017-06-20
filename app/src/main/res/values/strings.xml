@@ -5,4 +5,475 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string-array name="biomedicas">
+        <item>Biologia marinha</item>
+        <item>Biomedicina</item>
+        <item>Botânica</item>
+        <item>Ciências Agrárias</item>
+        <item>Ciências Ambientais</item>
+        <item>Ciências Biológicas</item>
+        <item>Ciências da Saúde</item>
+        <item>Ciências do Meio Aquático</item>
+        <item>Ecologia</item>
+        <item>Educação Física</item>
+        <item>Enfermagem</item>
+        <item>Fisioterapia</item>
+        <item>Fonoaudiologia</item>
+        <item>Gerontologia</item>
+        <item>Medicina</item>
+        <item>Medicina Veterinária</item>
+        <item>Meteorologia</item>
+        <item>Microbiologia</item>
+        <item>Naturologia</item>
+        <item>Neurociência</item>
+        <item>Nutrição</item>
+        <item>Obstetrícia</item>
+        <item>Odontologia</item>
+        <item>Quiropraxia</item>
+        <item>Saúde Pública</item>
+        <item>Terapia Ocupacional</item>
+        <item>Zootecnia</item>
+    <!--</string-array>-->
+
+    <!--<string-array name="biomedicastecnologias">-->
+        <item>Aquacultura</item>
+        <item>Cafeicultura</item>
+        <item>Biotecnologia</item>
+        <item>Ciência dos Alimentos</item>
+        <item>Cosmetologia</item>
+        <item>Drenagem</item>
+        <item>Enologia</item>
+        <item>Fruticultura</item>
+        <item>Gestão de Recursos Hídricos</item>
+        <item>Horticultura</item>
+        <item>Meliponicultura</item>
+        <item>Tecnologia em Oftálmica</item>
+        <item>Radiologia</item>
+        <item>Silvicultura</item>
+    </string-array>
+
+    <string-array name="exatas">
+        <item>Agronomia</item>
+        <item>Análise de Sistemas</item>
+        <item>Astronomia</item>
+        <item>Bioengenharia</item>
+        <item>Biofísica</item>
+        <item>Bioquímica</item>
+        <item>Ciência da Computação</item>
+        <item>Ciências Biomoleculares</item>
+        <item>Ciências Matemáticas da Terra</item>
+        <item>Ciências Naturais(Licenciatura)</item>
+        <item>Educação do Campo(Licenciatura)</item>
+        <item>Engenharia Aeroespacial</item>
+        <item>Engenharia Aeronáutica</item>
+        <item>Engenharia Agrícola</item>
+        <item>Engenharia de Alimentos</item>
+        <item>Engenharia Ambiental</item>
+        <item>Engenharia Biomédica</item>
+        <item>Engenharia Cartográfica</item>
+        <item>Engenharia Geográfica</item>
+        <item>Engenharia Civil</item>
+        <item>Engenharia de Computação</item>
+        <item>Engenharia de Controle e Automação</item>
+        <item>Engenharia Elétrica</item>
+        <item>Engenharia de Energia</item>
+        <item>Engenharia Física</item>
+        <item>Engenharia Florestal</item>
+        <item>Engenharia Geológica</item>
+        <item>Engenharia Industrial Madeireira</item>
+        <item>Engenharia de Manufatura</item>
+        <item>Engenharia de Materiais</item>
+        <item>Engenharia Mecânica</item>
+        <item>Engenharia Mecatrônica</item>
+        <item>Engenharia Metalúrgica</item>
+        <item>Engenharia Militar</item>
+        <item>Engenharia de Minas</item>
+        <item>Engenharia Naval e Oceânica</item>
+        <item>Engenharia Nuclear</item>
+        <item>Engenharia de Pesca</item>
+        <item>Engenharia de Petróleo</item>
+        <item>Engenharia de Produção</item>
+        <item>Engenharia Química</item>
+        <item>Engenharia Sanitária</item>
+        <item>Engenharia de Sistemas Eletrônicos</item>
+        <item>Engenharia de Software</item>
+        <item>Engenharia de Tecidos</item>
+        <item>Engenharia de Telecomunicações</item>
+        <item>Engenharia Têxtil</item>
+        <item>Estatística</item>
+        <item>Farmácia</item>
+        <item>Física</item>
+        <item>Física Computacional</item>
+        <item>Física Médica</item>
+        <item>Geofísica</item>
+        <item>Geologia</item>
+        <item>Geoprocessamento e Sensoriamento Remoto</item>
+        <item>Informática</item>
+        <item>Informática Biomédica</item>
+        <item>Matemática (Licenciatura)</item>
+        <item>Matemática Aplicada</item>
+        <item>Matemática Computacional</item>
+        <item>Nanotecnologia</item>
+        <item>Oceanografia</item>
+        <item>Química (Licenciatura)</item>
+        <item>Química Ambiental</item>
+        <item>Química Industrial</item>
+    <!--</string-array>-->
+
+    <!--<string-array name="exatastecnologias">-->
+        <item>Agrimensura</item>
+        <item>Agroindústria</item>
+        <item>Análise e desenvolvimento de sistemas</item>
+        <item>Automação Industrial</item>
+        <item>Biocombustíveis</item>
+        <item>Ciência dos Materiais</item>
+        <item>Construção de Edifícios</item>
+        <item>Construção de Estradas</item>
+        <item>Construção Naval</item>
+        <item>Energias Renováveis</item>
+        <item>Gestão da Tecnologia da Informação</item>
+        <item>Gestão de Petróleo e Gás</item>
+        <item>Gestão Portuária</item>
+        <item>Mecatrônica e Mecânica de Precisão</item>
+        <item>Mineração</item>
+        <item>Processos Metalúrgicos</item>
+        <item>Processamento de Dados</item>
+        <item>Produção de Laticínios</item>
+        <item>Produção de Materiais Plásticos</item>
+        <item>Produção Têxtil</item>
+        <item>Produção Sucroalcooeira</item>
+        <item>Redes de Computadores</item>
+        <item>Redes de Telecomunicações</item>
+        <item>Saneamento Ambiental</item>
+        <item>Segurança da Informação</item>
+        <item>Sistemas Biomédicos</item>
+        <item>Sistemas Elétricos</item>
+        <item>Sistemas Embarcados</item>
+        <item>Sistemas de Navegação Fluvial</item>
+        <item>Sistemas para Internet</item>
+        <item>Telemática</item>
+    </string-array>
+
+    <string-array name="humanas">
+        <item>Administração</item>
+        <item>Antropologia</item>
+        <item>Arqueologia</item>
+        <item>Arquitetura</item>
+        <item>Arquivística</item>
+        <item>Artes Cênicas</item>
+        <item>Artes Visuais</item>
+        <item>Biblioteconomia</item>
+        <item>Ciências Atuariais</item>
+        <item>Ciências Aeronáuticas</item>
+        <item>Ciências Humanas (Licenciatura)</item>
+        <item>Ciência Política</item>
+        <item>Ciências do Estado</item>
+        <item>Ciências Sociais</item>
+        <item>Licenciatura</item>
+        <item>Cinema</item>
+        <item>Comunicação Social</item>
+        <item>Contabilidade</item>
+        <item>Dança</item>
+        <item>Defesa e Gestão Estratégica Internacional</item>
+        <item>Desenho Industrial</item>
+        <item>Design de Interiores</item>
+        <item>Design de Moda</item>
+        <item>Direito</item>
+        <item>Economia</item>
+        <item>Economia Doméstica</item>
+        <item>Editoração</item>
+        <item>Educação Artística (Licenciatura)</item>
+        <item>Escultura</item>
+        <item>Filosofia (Licenciatura)</item>
+        <item>Gastronomia</item>
+        <item>Geografia (Licenciatura)</item>
+        <item>Gestão Ambiental</item>
+        <item>Gestão Pública</item>
+        <item>Gravurismo</item>
+        <item>História (Licenciatura)</item>
+        <item>História da Arte</item>
+        <item>Hotelaria</item>
+        <item>Jornalismo</item>
+        <item>Letras (Licenciatura)</item>
+        <item>Linguística</item>
+        <item>Museologia</item>
+        <item>Música (Licenciatura)</item>
+        <item>Ordenamento do Território</item>
+        <item>Paisagismo</item>
+        <item>Pedagogia (Licenciatura)</item>
+        <item>Pintura</item>
+        <item>Psicologia</item>
+        <item>Publicidade e Propaganda</item>
+        <item>Produção Audiovisual</item>
+        <item>Produção Cultural</item>
+        <item>Relações Internacionais</item>
+        <item>Relações Públicas</item>
+        <item>Segurança Pública</item>
+        <item>Serviço Social</item>
+        <item>Sociologia (Licenciatura)</item>
+        <item>Teatro (Licenciatura)</item>
+        <item>Teologia</item>
+        <item>Transporte Terrestre</item>
+        <item>Turismologia</item>
+        <item>Urbanismo</item>
+    <!--</string-array>-->
+
+    <!--<string-array name="humanastecnologias">-->
+        <item>Agroecologia</item>
+        <item>Comércio Exterior</item>
+        <item>Cooperativismo</item>
+        <item>Design de Jogos Digitais</item>
+        <item>Design de produto</item>
+        <item>Design gráfico</item>
+        <item>Eventos</item>
+        <item>Esporte e Lazer</item>
+        <item>Fotografia</item>
+        <item>Gestão de Agronegócio</item>
+        <item>Gestão Financeira</item>
+        <item>Gestão de Segurança Privada</item>
+        <item>Gestão da Qualidade</item>
+        <item>Logística</item>
+        <item>Mercadologia</item>
+        <item>Negócios Imobiliários</item>
+        <item>Processos Escolares</item>
+        <item>Produção de Aguardente</item>
+        <item>Produção Fonográfica</item>
+        <item>Recursos Humanos</item>
+        <item>Secretariado</item>
+        <item>Segurança no Trabalho</item>
+        <item>Transporte Aéreo</item>
+    </string-array>
+
+    <string-array name="urlbiomedicas">
+        <item>https://pt.wikipedia.org/wiki/Biologia</item>
+        <item>https://pt.wikipedia.org/wiki/Biologia_marinha</item>
+        <item>https://pt.wikipedia.org/wiki/Biomedicina</item>
+        <item>https://pt.wikipedia.org/wiki/Bot%C3%A2nica</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_agr%C3%A1rias</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_do_ambiente</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_biol%C3%B3gicas</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_da_sa%C3%BAde</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_do_meio_aqu%C3%A1tico</item>
+        <item>https://pt.wikipedia.org/wiki/Ecologia</item>
+        <item>https://pt.wikipedia.org/wiki/Educa%C3%A7%C3%A3o_f%C3%ADsica</item>
+        <item>https://pt.wikipedia.org/wiki/Enfermagem</item>
+        <item>https://pt.wikipedia.org/wiki/Fisioterapia</item>
+        <item>https://pt.wikipedia.org/wiki/Fonoaudiologia</item>
+        <item>https://pt.wikipedia.org/wiki/Gerontologia</item>
+        <item>https://pt.wikipedia.org/wiki/Medicina</item>
+        <item>https://pt.wikipedia.org/wiki/Medicina_veterin%C3%A1ria</item>
+        <item>https://pt.wikipedia.org/wiki/Meteorologia</item>
+        <item>https://pt.wikipedia.org/wiki/Microbiologia</item>
+        <item>https://pt.wikipedia.org/wiki/Naturologia</item>
+        <item>https://pt.wikipedia.org/wiki/Neuroci%C3%AAncia</item>
+        <item>https://pt.wikipedia.org/wiki/Nutri%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Obstetr%C3%ADcia</item>
+        <item>https://pt.wikipedia.org/wiki/Odontologia</item>
+        <item>https://pt.wikipedia.org/wiki/Quiropraxia</item>
+        <item>https://pt.wikipedia.org/wiki/Sa%C3%BAde_p%C3%BAblica</item>
+        <item>https://pt.wikipedia.org/wiki/Terapia_ocupacional</item>
+        <item>https://pt.wikipedia.org/wiki/Zootecnia</item>
+
+        <!--Tecnologias-->
+        <item>https://pt.wikipedia.org/wiki/Aquacultura</item>
+        <item>https://pt.wikipedia.org/wiki/Cafeicultura</item>
+        <item>https://pt.wikipedia.org/wiki/Biotecnologia</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncia_dos_alimentos</item>
+        <item>https://pt.wikipedia.org/wiki/Cosmetologia</item>
+        <item>https://pt.wikipedia.org/wiki/Drenagem</item>
+        <item>https://pt.wikipedia.org/wiki/Enologia</item>
+        <item>https://pt.wikipedia.org/wiki/Fruticultura</item>
+        <item>https://pt.wikipedia.org/wiki/Recursos_h%C3%ADdricos</item>
+        <item>https://pt.wikipedia.org/wiki/Horticultura</item>
+        <item>https://pt.wikipedia.org/wiki/Meliponicultura</item>
+        <item>https://pt.wikipedia.org/wiki/Tecnologia_em_oft%C3%A1lmica</item>
+        <item>https://pt.wikipedia.org/wiki/Radiologia</item>
+        <item>https://pt.wikipedia.org/wiki/Silvicultura</item>
+    </string-array>
+
+    <string-array name="urlexatas">
+        <item>https://pt.wikipedia.org/wiki/Agronomia</item>
+        <item>https://pt.wikipedia.org/wiki/Astronomia</item>
+        <item>https://pt.wikipedia.org/wiki/Bioengenharia</item>
+        <item>https://pt.wikipedia.org/wiki/Biof%C3%ADsica</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Biomol%C3%A9cula</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_da_terra</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_Naturais</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_exatas</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_aeroespacial</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_aeron%C3%A1utica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Agr%C3%ADcola</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Alimentos</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Ambiental</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_biom%C3%A9dica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Cartogr%C3%A1fica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Civil</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Computa%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_controle_e_automa%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_El%C3%A9trica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_F%C3%ADsica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Florestal</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_geol%C3%B3gica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Industrial_Madeireira</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_manufatura</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Materiais</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Mec%C3%A2nica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Mecatr%C3%B4nica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Metal%C3%BArgica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Militar</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Minas</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_naval</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Nuclear</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Pesca</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Petr%C3%B3leo</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Produ%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Qu%C3%ADmica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_Sanit%C3%A1ria</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_eletr%C3%B4nica</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Software</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Tecidos</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_de_Telecomunica%C3%A7%C3%B5es</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_T%C3%AAxtil</item>
+        <item>https://pt.wikipedia.org/wiki/Estat%C3%ADstica</item>
+        <item>https://pt.wikipedia.org/wiki/Farm%C3%A1cia</item>
+        <item>https://pt.wikipedia.org/wiki/F%C3%ADsica</item>
+        <item>https://pt.wikipedia.org/wiki/F%C3%ADsica_computacional</item>
+        <item>https://pt.wikipedia.org/wiki/F%C3%ADsica_m%C3%A9dica</item>
+        <item>https://pt.wikipedia.org/wiki/Geof%C3%ADsica</item>
+        <item>https://pt.wikipedia.org/wiki/Geologia</item>
+        <item>https://pt.wikipedia.org/wiki/Geoprocessamento</item>
+        <item>https://pt.wikipedia.org/wiki/Inform%C3%A1tica</item>
+        <item>https://pt.wikipedia.org/wiki/Inform%C3%A1tica_biom%C3%A9dica</item>
+        <item>https://pt.wikipedia.org/wiki/Matem%C3%A1tica</item>
+        <item>https://pt.wikipedia.org/wiki/Matem%C3%A1tica_Aplicada</item>
+        <item>https://pt.wikipedia.org/wiki/Matem%C3%A1tica_computacional</item>
+        <item>https://pt.wikipedia.org/wiki/Nanotecnologia</item>
+        <item>https://pt.wikipedia.org/wiki/Oceanografia</item>
+        <item>https://pt.wikipedia.org/wiki/Qu%C3%ADmica</item>
+        <item>https://pt.wikipedia.org/wiki/Qu%C3%ADmica_ambiental</item>
+        <item>https://pt.wikipedia.org/wiki/Qu%C3%ADmica_industrial</item>
+        <item>https://pt.wikipedia.org/wiki/An%C3%A1lise_de_sistemas</item>
+        <!-- Tecnologias -->
+        <item>https://pt.wikipedia.org/wiki/Agrimensura</item>
+        <item>https://pt.wikipedia.org/wiki/Agroind%C3%BAstria</item>
+        <item>https://pt.wikipedia.org/wiki/An%C3%A1lise_e_desenvolvimento_de_sistemas</item>
+        <item>https://pt.wikipedia.org/wiki/Tecn%C3%B3logo_em_automa%C3%A7%C3%A3o_industrial</item>
+        <item>https://pt.wikipedia.org/wiki/Biocombust%C3%ADveis</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncia_dos_materiais</item>
+        <item>https://pt.wikipedia.org/wiki/Constru%C3%A7%C3%A3o_civil</item>
+        <item>https://pt.wikipedia.org/wiki/Estrada</item>
+        <item>https://pt.wikipedia.org/wiki/Constru%C3%A7%C3%A3o_naval</item>
+        <item>https://pt.wikipedia.org/wiki/Energia_renov%C3%A1vel_no_Brasil</item>
+        <item>https://pt.wikipedia.org/wiki/Tecnologia_da_informa%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Petr%C3%B3leo</item>
+        <item>https://pt.wikipedia.org/wiki/Porto_(transporte)</item>
+        <item>https://pt.wikipedia.org/wiki/Tecn%C3%B3logo_em_mecatr%C3%B4nica</item>
+        <item>https://pt.wikipedia.org/wiki/Minera%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Metalurgia</item>
+        <item>https://pt.wikipedia.org/wiki/Processamento_de_dados</item>
+        <item>https://pt.wikipedia.org/wiki/Latic%C3%ADnios</item>
+        <item>https://pt.wikipedia.org/wiki/Pol%C3%ADmeros</item>
+        <item>https://pt.wikipedia.org/wiki/Ind%C3%BAstria_t%C3%AAxtil</item>
+        <item>https://pt.wikipedia.org/wiki/Bioetanol</item>
+        <item>https://pt.wikipedia.org/wiki/Rede_de_computadores</item>
+        <item>https://pt.wikipedia.org/wiki/Rede_de_telecomunica%C3%A7%C3%B5es</item>
+        <item>https://pt.wikipedia.org/wiki/Tecn%C3%B3logo_em_saneamento_ambiental</item>
+        <item>https://pt.wikipedia.org/wiki/Seguran%C3%A7a_da_Informa%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Tecn%C3%B3logo_em_sistemas_biom%C3%A9dicos</item>
+        <item>https://pt.wikipedia.org/wiki/Sistemas_Eletr%C3%B4nicos</item>
+        <item>https://pt.wikipedia.org/wiki/Sistema_embarcado</item>
+        <item>https://pt.wikipedia.org/wiki/Transporte_hidrovi%C3%A1rio</item>
+        <item>https://pt.wikipedia.org/wiki/Sistemas_para_Internet</item>
+        <item>https://pt.wikipedia.org/wiki/Telem%C3%A1tica</item>
+    </string-array>
+
+    <string-array name="urlhumanas">
+        <item>https://pt.wikipedia.org/wiki/Administra%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Antropologia</item>
+        <item>https://pt.wikipedia.org/wiki/Arqueologia</item>
+        <item>https://pt.wikipedia.org/wiki/Arquitectura</item>
+        <item>https://pt.wikipedia.org/wiki/Arquiv%C3%ADstica</item>
+        <item>https://pt.wikipedia.org/wiki/Artes_C%C3%AAnicas</item>
+        <item>https://pt.wikipedia.org/wiki/Artes_Visuais</item>
+        <item>https://pt.wikipedia.org/wiki/Biblioteconomia</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_Atuariais</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_aeron%C3%A1uticas</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_Humanas</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncia_Pol%C3%ADtica</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_Sociais</item>
+        <item>https://pt.wikipedia.org/wiki/Cinema</item>
+        <item>https://pt.wikipedia.org/wiki/Comunica%C3%A7%C3%A3o_social</item>
+        <item>https://pt.wikipedia.org/wiki/Contabilidade</item>
+        <item>https://pt.wikipedia.org/wiki/Dan%C3%A7a</item>
+        <item>https://pt.wikipedia.org/wiki/Ci%C3%AAncias_militares</item>
+        <item>https://pt.wikipedia.org/wiki/Desenho_Industrial</item>
+        <item>https://pt.wikipedia.org/wiki/Design_de_Interiores</item>
+        <item>https://pt.wikipedia.org/wiki/Design_de_Moda</item>
+        <item>https://pt.wikipedia.org/wiki/Direito</item>
+        <item>https://pt.wikipedia.org/wiki/Economia</item>
+        <item>https://pt.wikipedia.org/wiki/Economia_dom%C3%A9stica</item>
+        <item>https://pt.wikipedia.org/wiki/Editora%C3%A7%C3%A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Educa%C3%A7%C3%A3o_Art%C3%ADstica</item>
+        <item>https://pt.wikipedia.org/wiki/Escultura</item>
+        <item>https://pt.wikipedia.org/wiki/Filosofia</item>
+        <item>https://pt.wikipedia.org/wiki/Gastronomia</item>
+        <item>https://pt.wikipedia.org/wiki/Geografia</item>
+        <item>https://pt.wikipedia.org/wiki/Gest%C3%A3o_Ambiental</item>
+        <item>https://pt.wikipedia.org/wiki/Administra%C3%A7%C3%A3o_p%C3%BAblica</item>
+        <item>https://pt.wikipedia.org/wiki/Gravura</item>
+        <item>https://pt.wikipedia.org/wiki/Hist%C3%B3ria</item>
+        <item>https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_Arte</item>
+        <item>https://pt.wikipedia.org/wiki/Hotelaria</item>
+        <item>https://pt.wikipedia.org/wiki/Jornalismo</item>
+        <item>https://pt.wikipedia.org/wiki/Letras</item>
+        <item>https://pt.wikipedia.org/wiki/Lingu%C3%ADstica</item>
+        <item>https://pt.wikipedia.org/wiki/Museologia</item>
+        <item>https://pt.wikipedia.org/wiki/M%C3%BAsica</item>
+        <item>https://pt.wikipedia.org/wiki/Ordenamento_do_Territ%C3%B3rio</item>
+        <item>https://pt.wikipedia.org/wiki/Paisagismo</item>
+        <item>https://pt.wikipedia.org/wiki/Pedagogia</item>
+        <item>https://pt.wikipedia.org/wiki/Pintura</item>
+        <item>https://pt.wikipedia.org/wiki/Psicologia</item>
+        <item>https://pt.wikipedia.org/wiki/Publicidade</item>
+        <item>https://pt.wikipedia.org/wiki/Audiovisual</item>
+        <item>https://pt.wikipedia.org/wiki/Produ%C3%A7%C3%A3o_cultural</item>
+        <item>https://pt.wikipedia.org/wiki/Rela%C3%A7%C3%B5es_Internacionais</item>
+        <item>https://pt.wikipedia.org/wiki/Rela%C3%A7%C3%B5es_P%C3%BAblicas</item>
+        <item>https://pt.wikipedia.org/wiki/Seguran%C3%A7a_P%C3%BAblica</item>
+        <item>https://pt.wikipedia.org/wiki/Servi%C3%A7o_Social</item>
+        <item>https://pt.wikipedia.org/wiki/Sociologia</item>
+        <item>https://pt.wikipedia.org/wiki/Teatro</item>
+        <item>https://pt.wikipedia.org/wiki/Teologia</item>
+        <item>https://pt.wikipedia.org/wiki/Engenharia_civil#Vias_de_comunica.C3.A7.C3.A3o</item>
+        <item>https://pt.wikipedia.org/wiki/Turismologia</item>
+        <item>https://pt.wikipedia.org/wiki/Urbanismo</item>
+
+        <!-- Tecnologias -->
+
+        <item>https://pt.wikipedia.org/wiki/Agroecologia</item>
+        <item>https://pt.wikipedia.org/wiki/Com%C3%A9rcio_Exterior</item>
+        <item>https://pt.wikipedia.org/wiki/Cooperativismo</item>
+        <item>https://pt.wikipedia.org/wiki/Design_de_jogos</item>
+        <item>https://pt.wikipedia.org/wiki/Design_de_produto</item>
+        <item>https://pt.wikipedia.org/wiki/Design_gr%C3%A1fico</item>
+        <item>https://pt.wikipedia.org/wiki/Eventos</item>
+        <item>https://pt.wikipedia.org/wiki/Lazer</item>
+        <item>https://pt.wikipedia.org/wiki/Fotografia</item>
+        <item>https://pt.wikipedia.org/wiki/Agroneg%C3%B3cio</item>
+        <item>https://pt.wikipedia.org/wiki/Finan%C3%A7as</item>
+        <item>https://pt.wikipedia.org/wiki/Seguran%C3%A7a_privada</item>
+        <item>https://pt.wikipedia.org/wiki/Gest%C3%A3o_da_Qualidade</item>
+        <item>https://pt.wikipedia.org/wiki/Tecn%C3%B3logo_em_log%C3%ADstica</item>
+        <item>https://pt.wikipedia.org/wiki/Mercadologia</item>
+        <item>https://pt.wikipedia.org/wiki/Mercado_imobili%C3%A1rio</item>
+        <item>https://pt.wikipedia.org/wiki/Administra%C3%A7%C3%A3o_escolar</item>
+        <item>https://pt.wikipedia.org/wiki/Aguardente</item>
+        <item>https://pt.wikipedia.org/wiki/Ind%C3%BAstria_da_m%C3%BAsica</item>
+        <item>https://pt.wikipedia.org/wiki/Recursos_Humanos</item>
+        <item>https://pt.wikipedia.org/wiki/Secretariado</item>
+        <item>https://pt.wikipedia.org/wiki/Seguran%C3%A7a_no_Trabalho</item>
+        <item>https://pt.wikipedia.org/wiki/Transporte_a%C3%A9reo</item>
+    </string-array>
 </resources>

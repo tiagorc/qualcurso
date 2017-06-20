@@ -28,26 +28,16 @@ public class MainActivity extends AppCompatActivity
     private ListView mListView;
     private AdapterView listView;
     String[] COURSES;
+    String[] URLS;
+
+//    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.COURSES = new String[] {
-                "Biologia",
-                "Biologia marinha",
-                "Biomedicina",
-                "Botânica",
-                "Ciências agrárias",
-                "Ciências do ambiente",
-                "Ciências biológicas",
-                "Ciências da saúde",
-                "Ciências do meio aquático",
-                "Ecologia",
-                "Educação física",
-                "Enfermagem"
-        };
+        this.COURSES = getResources().getStringArray(R.array.biomedicas);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
