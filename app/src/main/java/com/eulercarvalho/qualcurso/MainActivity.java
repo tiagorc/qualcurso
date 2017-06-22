@@ -1,7 +1,9 @@
 package com.eulercarvalho.qualcurso;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.content.Context;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
@@ -34,10 +36,14 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final Context context = this;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         this.COURSES = getResources().getStringArray(R.array.biomedicas);
+        this.URLS = getResources().getStringArray(R.array.urlbiomedicas);
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -55,12 +61,9 @@ public class MainActivity extends AppCompatActivity
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this,
-                        "ListView: " + COURSES[position] + "\n" +
-                                "View: " + view.toString() + "\n" +
-                                "position: " + String.valueOf(position) + "\n" +
-                                "id: " + String.valueOf(id),
-                        Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(context, WebViewActivity.class);
+                intent.putExtra("URL", URLS[position]);
+                startActivity(intent);
             }
         });
 
