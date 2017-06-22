@@ -34,9 +34,6 @@
         <item>Saúde Pública</item>
         <item>Terapia Ocupacional</item>
         <item>Zootecnia</item>
-    <!--</string-array>-->
-
-    <!--<string-array name="biomedicastecnologias">-->
         <item>Aquacultura</item>
         <item>Cafeicultura</item>
         <item>Biotecnologia</item>
@@ -119,9 +116,6 @@
         <item>Química (Licenciatura)</item>
         <item>Química Ambiental</item>
         <item>Química Industrial</item>
-    <!--</string-array>-->
-
-    <!--<string-array name="exatastecnologias">-->
         <item>Agrimensura</item>
         <item>Agroindústria</item>
         <item>Análise e desenvolvimento de sistemas</item>
@@ -217,9 +211,6 @@
         <item>Transporte Terrestre</item>
         <item>Turismologia</item>
         <item>Urbanismo</item>
-    <!--</string-array>-->
-
-    <!--<string-array name="humanastecnologias">-->
         <item>Agroecologia</item>
         <item>Comércio Exterior</item>
         <item>Cooperativismo</item>
@@ -274,8 +265,6 @@
         <item>https://pt.wikipedia.org/wiki/Sa%C3%BAde_p%C3%BAblica</item>
         <item>https://pt.wikipedia.org/wiki/Terapia_ocupacional</item>
         <item>https://pt.wikipedia.org/wiki/Zootecnia</item>
-
-        <!--Tecnologias-->
         <item>https://pt.wikipedia.org/wiki/Aquacultura</item>
         <item>https://pt.wikipedia.org/wiki/Cafeicultura</item>
         <item>https://pt.wikipedia.org/wiki/Biotecnologia</item>
@@ -355,7 +344,6 @@
         <item>https://pt.wikipedia.org/wiki/Qu%C3%ADmica_ambiental</item>
         <item>https://pt.wikipedia.org/wiki/Qu%C3%ADmica_industrial</item>
         <item>https://pt.wikipedia.org/wiki/An%C3%A1lise_de_sistemas</item>
-        <!-- Tecnologias -->
         <item>https://pt.wikipedia.org/wiki/Agrimensura</item>
         <item>https://pt.wikipedia.org/wiki/Agroind%C3%BAstria</item>
         <item>https://pt.wikipedia.org/wiki/An%C3%A1lise_e_desenvolvimento_de_sistemas</item>
@@ -449,9 +437,6 @@
         <item>https://pt.wikipedia.org/wiki/Engenharia_civil#Vias_de_comunica.C3.A7.C3.A3o</item>
         <item>https://pt.wikipedia.org/wiki/Turismologia</item>
         <item>https://pt.wikipedia.org/wiki/Urbanismo</item>
-
-        <!-- Tecnologias -->
-
         <item>https://pt.wikipedia.org/wiki/Agroecologia</item>
         <item>https://pt.wikipedia.org/wiki/Com%C3%A9rcio_Exterior</item>
         <item>https://pt.wikipedia.org/wiki/Cooperativismo</item>
