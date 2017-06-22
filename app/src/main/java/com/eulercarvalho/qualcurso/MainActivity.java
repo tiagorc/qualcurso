@@ -2,6 +2,8 @@ package com.eulercarvalho.qualcurso;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.content.Context;
 import android.support.design.widget.FloatingActionButton;
@@ -32,12 +34,12 @@ public class MainActivity extends AppCompatActivity
     String[] COURSES;
     String[] URLS;
 
+    final Context context = this;
+
 //    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        final Context context = this;
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -61,9 +63,17 @@ public class MainActivity extends AppCompatActivity
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(context, WebViewActivity.class);
-                intent.putExtra("URL", URLS[position]);
-                startActivity(intent);
+                if (verifyNetwork()) {
+                    Intent intent = new Intent(context, WebViewActivity.class);
+                    intent.putExtra("URL", URLS[position]);
+                    startActivity(intent);
+                }else {
+                    Toast.makeText(MainActivity.this,
+                            "É necessário possuir uma conexão ativa com a Internet: " + "\n"
+                            + "Verifique e tente novamente..",
+                            Toast.LENGTH_LONG).show();
+                }
+
             }
         });
 
@@ -88,6 +98,20 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    final public Boolean verifyNetwork() {
+        if (this.context != null) {
+            ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(context.CONNECTIVITY_SERVICE);
+            NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+            if (networkInfo == null) {
+                return false;
+            }else {
+                return true;
+            }
+        }else {
+            return false;
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

@@ -25,13 +25,11 @@ public class WebViewActivity extends Activity {
             Log.d("URL", url);
         }else {
             url = "www.google.com.br";
-            Log.d("URL", "deu ruim");
         }
 
-
-        Toast.makeText(WebViewActivity.this,
-                "URL: " + url + "\n",
-                Toast.LENGTH_LONG).show();
+//        Toast.makeText(WebViewActivity.this,
+//                "URL: " + url + "\n",
+//                Toast.LENGTH_LONG).show();
 
         setContentView(R.layout.webview);
 
