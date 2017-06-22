@@ -1,15 +1,10 @@
 package com.eulercarvalho.qualcurso;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.content.Context;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -19,7 +14,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -36,16 +30,15 @@ public class MainActivity extends AppCompatActivity
 
     final Context context = this;
 
-//    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         this.COURSES = getResources().getStringArray(R.array.biomedicas);
         this.URLS = getResources().getStringArray(R.array.urlbiomedicas);
-
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -77,6 +70,10 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        reloadListData();
+    }
+
+    private void reloadListData() {
         String[] listItems = new String[COURSES.length];
 
         for(int i = 0; i < COURSES.length; i++){
@@ -138,21 +135,29 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.cienciasbiomedicas) {
-            Toast.makeText(MainActivity.this,"Ciencias biomedicas",
-                    Toast.LENGTH_LONG).show();
-        } else if (id == R.id.cienciasexatas) {
-            Toast.makeText(MainActivity.this,"Ciencias Exatas",
-                    Toast.LENGTH_LONG).show();
-        } else if (id == R.id.cienciashumanas) {
-            Toast.makeText(MainActivity.this,"Ciencias humanas",
-                    Toast.LENGTH_LONG).show();
+        switch (item.getItemId()){
+            case R.id.cienciasbiomedicas: {
+                this.COURSES = getResources().getStringArray(R.array.biomedicas);
+                this.URLS = getResources().getStringArray(R.array.urlbiomedicas);
+                break;
+            }
+            case R.id.cienciasexatas: {
+                this.COURSES = getResources().getStringArray(R.array.exatas);
+                this.URLS = getResources().getStringArray(R.array.urlexatas);
+                break;
+            }
+            case R.id.cienciashumanas: {
+                this.COURSES = getResources().getStringArray(R.array.humanas);
+                this.URLS = getResources().getStringArray(R.array.urlhumanas);
+                break;
+            }
         }
+
+        reloadListData();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }
