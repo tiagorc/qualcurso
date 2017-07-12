@@ -5,6 +5,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -27,6 +28,11 @@ public class MainActivity extends AppCompatActivity
     private AdapterView listView;
     String[] COURSES;
     String[] URLS;
+    String[] UNB;
+    String[] UCB;
+    String[] JK;
+    String[] IESB;
+    String[] CEUB;
 
     final Context context = this;
 
@@ -36,18 +42,13 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        this.COURSES = getResources().getStringArray(R.array.biomedicas);
-        this.URLS = getResources().getStringArray(R.array.urlbiomedicas);
+        populateData();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
+        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -57,8 +58,12 @@ public class MainActivity extends AppCompatActivity
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (verifyNetwork()) {
-                    Intent intent = new Intent(context, WebViewActivity.class);
-                    intent.putExtra("URL", URLS[position]);
+                    Bundle b = new Bundle();
+                    b.putStringArray("URLs", createURLS(position));
+
+                    Intent intent = new Intent(context, CourseActivity.class);
+
+                    intent.putExtras(b);
                     startActivity(intent);
                 }else {
                     Toast.makeText(MainActivity.this,
@@ -71,6 +76,75 @@ public class MainActivity extends AppCompatActivity
         });
 
         reloadListData();
+    }
+
+    private void populateData() {
+        this.COURSES = new String[]{
+                "Administração",
+                "Enfermagem",
+                "Letras",
+                "Sistemas de Informação",
+                "Rede de Computadores",
+                "Fisioterapia"
+        };
+
+        this.UNB = new String[] {
+                "http://www.adm.unb.br/",
+                "https://fs.unb.br/enfermagem/",
+                "http://www.il.unb.br/",
+                "http://www.unb.br/",
+                "http://www.unb.br/",
+                "http://fce.unb.br/sobre-o-curso-fis",
+        };
+
+        this.UCB = new String[] {
+                "http://www.adm.unb.br/",
+                "http://www.ucb.br/Cursos/38Enfermagem/",
+                "http://www.ucb.br/Cursos/23Letras/",
+                "http://www.ucb.br/Cursos/19SistemasDeInformacao/",
+                "http://www.ucb.br/Cursos/Graduacao/",
+                "http://www.ucb.br/Cursos/22Fisioterapia/",
+        };
+
+        this.JK = new String[] {
+                "http://www.rededeensinojk.com.br/administracao",
+                "http://www.rededeensinojk.com.br/enfermagem",
+                "http://www.rededeensinojk.com.br/letras",
+                "http://www.rededeensinojk.com.br/sistema-de-informacao",
+                "http://www.rededeensinojk.com.br/rede-de-computadores",
+                "http://www.rededeensinojk.com.br/",
+        };
+
+        this.IESB = new String[] {
+                "http://www.iesb.br/graduacao/curso/administracao",
+                "http://www.iesb.br/graduacao/curso/enfermagem",
+                "http://www.iesb.br",
+                "http://www.iesb.br/graduacao/curso/ciencia-da-computacao",
+                "http://www.iesb.br/graduacao/curso/redes-de-computadores",
+                "http://www.iesb.br",
+        };
+
+
+        this.CEUB = new String[] {
+                "https://www.uniceub.br/processo-seletivo/vestibular/administracao.aspx#c",
+                "https://www.uniceub.br/processo-seletivo/vestibular/enfermagem.aspx#c",
+                "https://www.uniceub.br",
+                "https://www.uniceub.br/processo-seletivo/vestibular/ciencia-da-computacao.aspx#c",
+                "https://www.uniceub.br",
+                "https://www.uniceub.br/processo-seletivo/vestibular/fisioterapia.aspx#c",
+        };
+    }
+
+    public String[] createURLS(int index) {
+        this.URLS = new String[] {
+                this.CEUB[index],
+                this.IESB[index],
+                this.JK[index],
+                this.UCB[index],
+                this.UNB[index],
+        };
+
+        return this.URLS;
     }
 
     private void reloadListData() {
@@ -131,32 +205,32 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
+//    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         switch (item.getItemId()){
-            case R.id.cienciasbiomedicas: {
-                this.COURSES = getResources().getStringArray(R.array.biomedicas);
-                this.URLS = getResources().getStringArray(R.array.urlbiomedicas);
-                break;
-            }
-            case R.id.cienciasexatas: {
-                this.COURSES = getResources().getStringArray(R.array.exatas);
-                this.URLS = getResources().getStringArray(R.array.urlexatas);
-                break;
-            }
-            case R.id.cienciashumanas: {
-                this.COURSES = getResources().getStringArray(R.array.humanas);
-                this.URLS = getResources().getStringArray(R.array.urlhumanas);
-                break;
-            }
+//            case R.id.cienciasbiomedicas: {
+//                this.COURSES = getResources().getStringArray(R.array.biomedicas);
+//                this.URLS = getResources().getStringArray(R.array.urlbiomedicas);
+//                break;
+//            }
+//            case R.id.cienciasexatas: {
+//                this.COURSES = getResources().getStringArray(R.array.exatas);
+//                this.URLS = getResources().getStringArray(R.array.urlexatas);
+//                break;
+//            }
+//            case R.id.cienciashumanas: {
+//                this.COURSES = getResources().getStringArray(R.array.humanas);
+//                this.URLS = getResources().getStringArray(R.array.urlhumanas);
+//                break;
+//            }
         }
 
-        reloadListData();
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+//        reloadListData();
+//
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
